@@ -1,0 +1,75 @@
+#phpstorm project files
+.idea
+
+#vagrant files
+.vagrant
+ansible/playbook.retry
+
+#netbeans project files
+nbproject
+
+#zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+#windows thumbnail cache
+Thumbs.db
+desktop.ini
+
+#mac DS_Store Files
+.DS_Store
+
+#ubuntu log file
+ubuntu-bionic-18.04-cloudimg-console.log
+
+#composer itself is not needed
+composer.phar
+
+#phpunit itself is not needed
+phpunit.phar
+
+#local phpunit config
+/phpunit.xml
+
+#deploy
+/deploy/hosts.local.yml
+
+#tests
+tests/_output/*
+tests/_support/_generated
+
+#env
+/.env.local
+/.env.dev
+/.env.prod
+config/.env.local
+config/.env.dev
+config/.env.prod
+
+#configs
+/config/web.local.php
+/config/params.local.php
+/config/console.local.php
+
+#robots.txt
+/web/robots.txt
+
+#data
+.data
+
+#docker
+/.db
+/.cache
+
+#composer vendor dir
+/vendor
+
+#node_modules dir
+/node_modules
+
+#db dir
+/db
+
+#logs
+*.log
